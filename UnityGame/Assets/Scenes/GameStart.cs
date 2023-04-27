@@ -18,8 +18,7 @@ public class GameStart : MonoBehaviour
             transform.Rotate(0,0,45);
             
         }
-        else
-        if (Input.GetMouseButtonDown(Actions.RightMouseButton))
+        else if (Input.GetMouseButtonDown(Actions.RightMouseButton))
         {
             transform.Rotate(0, 0, -45);
 
