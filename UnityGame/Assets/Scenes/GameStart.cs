@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class GameStart : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         
@@ -18,6 +17,11 @@ public class GameStart : MonoBehaviour
         {
             transform.Rotate(0,0,45);
             
+        }
+        else if (Input.GetMouseButtonDown(Actions.RightMouseButton))
+        {
+            transform.Rotate(0, 0, -45);
+
         }
     }
 }
