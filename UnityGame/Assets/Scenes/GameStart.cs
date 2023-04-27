@@ -13,6 +13,7 @@ public class GameStart : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // I'm adding the ability to move an object with a mouse click
         if (Input.GetMouseButtonDown(Actions.LeftMouseButton))
         {
             transform.Rotate(0,0,45);
